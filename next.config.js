@@ -2,7 +2,8 @@
 
 const nextConfig = {
   experimental: {
-    ppr: 'incremental',
+    // TODO: エラーが発生されるため一時的にコメントアウト
+    // ppr: 'incremental',
   },
 };
 
