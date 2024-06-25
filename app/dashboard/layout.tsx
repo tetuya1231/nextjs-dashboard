@@ -1,6 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 
-export const experimental_ppr = true;
+// TODO: エラーが発生されるため一時的にコメントアウト
+// export const experimental_ppr = true;
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
